@@ -5,80 +5,77 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <footer className="bg-cyan-700 text-red-600 body-font ">
+        <footer className="bg-black body-font ">
             <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:justify-center">
                     <Link href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 md:justify-center"  >
                         <Image className='mr-1.5' src="/logo5.webp" alt='panaverse' width={120} height={120} />
                     </Link>
-                    <p className="mt-2 text-sm text-gray-700">Starting your Web 3.0 and Metaverse development career with us</p>
+                    <p className="mt-2 text-sm text-gray-400">Starting your Web 3.0 and Metaverse development career with us</p>
                 </div>
                 <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Follow Us</h2>
+                        <h2 className="title-font font-semibold text-white tracking-widest text-xl  mb-3">Follow Us</h2>
                         <nav className="list-none mb-10">
                             <li>
-                                <Link href='/' className="text-gray-600 hover:text-gray-800">Facebook</Link>
+                                <Link href='https://google.com' className="text-gray-400 hover:text-gray-600">Facebook</Link>
                             </li>
                             <li>
-                                <Link href='/' className="text-gray-600 hover:text-gray-800">Twitter</Link>
+                                <Link href='/' className="text-gray-400 hover:text-gray-600">Twitter</Link>
                             </li>
                             <li>
-                                <Link href='/' className="text-gray-600 hover:text-gray-800">Git Hub</Link>
+                                <Link href='/' className="text-gray-400 hover:text-gray-600">Git Hub</Link>
                             </li>
                             <li>
-                                <Link href='/' className="text-gray-600 hover:text-gray-800">Youtube</Link>
+                                <Link href='/' className="text-gray-400 hover:text-gray-600">Youtube</Link>
                             </li>
                         </nav>
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                        <h2 className="title-font font-semibold text-white tracking-widest text-xl  mb-3">Useful Links</h2>
                         <nav className="list-none mb-10">
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                                <Link href='https://google.com' className="text-gray-400 hover:text-gray-600">Home</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                                <Link href='/' className="text-gray-400 hover:text-gray-600">About</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                                <Link href='/' className="text-gray-400 hover:text-gray-600">Explore</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                                <Link href='/' className="text-gray-400 hover:text-gray-600">Syllabus</Link>
                             </li>
                         </nav>
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                        <h2 className="title-font font-semibold text-white tracking-widest text-xl  mb-3">Explore</h2>
                         <nav className="list-none mb-10">
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                                <Link href='https://google.com' className="text-gray-400 hover:text-gray-600">Facebook</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                                <Link href='/' className="text-gray-400 hover:text-gray-600">Twitter</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                                <Link href='/' className="text-gray-400 hover:text-gray-600">Git Hub</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                                <Link href='/' className="text-gray-400 hover:text-gray-600">Youtube</Link>
                             </li>
                         </nav>
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                        <h2 className="title-font font-semibold text-white tracking-widest text-xl  mb-3">Contact</h2>
                         <nav className="list-none mb-10">
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                                <Link href='https://google.com' className="text-gray-400 hover:text-gray-600">+92 123 456789</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                                <Link href='/' className="text-gray-400 hover:text-gray-600">asdf@gmail.com</Link>
                             </li>
                             <li>
-                                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                            </li>
-                            <li>
-                                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                                <Link href='/' className="text-gray-400 hover:text-gray-600">Lahore, Pakistan</Link>
                             </li>
                         </nav>
                     </div>
