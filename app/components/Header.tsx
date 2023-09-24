@@ -13,7 +13,7 @@ export default function Header() {
                     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-xl text-cyan-600 font-mono justify-center">
                         <Link href="/" className="mr-5 hover:text-gray-900">Home</Link>
                         <Link href="/" className="mr-5 hover:text-gray-900">About</Link>
-                        <Link href="/" className="mr-5 hover:text-gray-900">Syllabus</Link>
+                        <Link href="/Team" className="mr-5 hover:text-gray-900">Team </Link>
                         <Link href="/" className="mr-5 hover:text-gray-900">Contact us</Link>
                     </nav>
                     <button className="inline-flex items-center bg-blue-500 rounded-lg py-1 px-3 focus:outline-none hover:bg-blue-300 text-base mt-4 md:mt-0">Button
