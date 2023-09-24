@@ -5,7 +5,7 @@ import React from 'react'
 export default function Header() {
     return (
         <>
-            <header className="text-gray-600 body-font shadow-2xl bg-cyan-700">
+            <header className="text-gray-600 body-font  absolute w-full">
                 <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <Link href="/">
                         <Image className='mr-1.5' src="/logo5.webp" alt='panaverse' width={120} height={120} />
